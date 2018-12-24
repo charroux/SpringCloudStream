@@ -1,0 +1,8 @@
+spring.cloud.stream.kafka.binder.brokers: localhost
+spring.cloud.stream.kafka.binder.defaultBrokerPort: 9092
+spring.cloud.stream.bindings.input.binder: kafka
+spring.cloud.stream.bindings.output.binder: kafka
+spring.cloud.stream.bindings.input.content-type: application/json
+spring.cloud.stream.bindings.input.destination: commandsStream
+spring.cloud.stream.bindings.output.content-type: application/json
+spring.cloud.stream.bindings.output.destination: commandsStream
